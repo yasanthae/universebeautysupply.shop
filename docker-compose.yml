@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    image: universe-beauty-supply
+    container_name: universe-beauty
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    networks:
+      - universe-network
+
+networks:
+  universe-network:
+    driver: bridge
