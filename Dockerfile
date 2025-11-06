@@ -10,6 +10,7 @@ WORKDIR /build
 COPY index.html .
 COPY styles.css .
 COPY script.js .
+COPY aboutus.jpg .
 COPY images/ ./images/
 
 # Optional: Install optimization tools and optimize assets
@@ -37,6 +38,7 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY --from=builder /build/index.html /usr/share/nginx/html/
 COPY --from=builder /build/styles.css /usr/share/nginx/html/
 COPY --from=builder /build/script.js /usr/share/nginx/html/
+COPY --from=builder /build/aboutus.jpg /usr/share/nginx/html/
 COPY --from=builder /build/images/ /usr/share/nginx/html/images/
 
 # Create nginx configuration for non-root user

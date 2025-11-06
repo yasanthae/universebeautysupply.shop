@@ -20,6 +20,9 @@ services:
           path: ./script.js
           target: /usr/share/nginx/html/script.js
         - action: sync
+          path: ./aboutus.jpg
+          target: /usr/share/nginx/html/aboutus.jpg
+        - action: sync
           path: ./images
           target: /usr/share/nginx/html/images
 
