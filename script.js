@@ -204,5 +204,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // ===== CONSOLE MESSAGE =====
     console.log('Universe Beauty Supply - Website Loaded Successfully');
-    console.log('For inquiries: 071 369 4788 (Sri Lanka) | +1 302 244 9372 (USA)');
+    console.log('For inquiries: 071 369 4788 (Sri Lanka) | +1 302 802 3220 (USA)');
 });
