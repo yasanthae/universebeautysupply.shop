@@ -7,10 +7,12 @@
     <title>Beauty with USA | Wholesale Beauty Products to Sri Lanka</title>
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
     
@@ -23,7 +25,7 @@
             </div>
             
             <!-- Hamburger Menu Icon -->
-            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -41,13 +43,17 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <h2 class="hero-title">Beauty with USA</h2>
-            <p class="hero-subtitle">Premium Wholesale Cosmetics & Beauty Products</p>
-            <p class="hero-tagline">Importing from USA, UK, Canada & Korea to Sri Lanka</p>
-            <a href="#products" class="cta-button">Explore Products</a>
+        <div class="hero-grid">
+            <div class="hero-content">
+                <h2 class="hero-title">Beauty with USA</h2>
+                <p class="hero-subtitle">Premium Wholesale Cosmetics & Beauty Products</p>
+                <p class="hero-tagline">Importing from USA, UK, Canada &amp; Korea to Sri Lanka</p>
+                <a href="#products" class="cta-button">Explore Products</a>
+            </div>
+            <div class="hero-media">
+                <img src="background_image.jpeg" alt="" width="878" height="878" fetchpriority="high">
+            </div>
         </div>
-        <div class="hero-overlay"></div>
     </section>
 
     <!-- Products Section -->
@@ -80,7 +86,7 @@
                 <!-- Product Card 1 - Vitamins & Supplements -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="images/product-1.jpg" alt="Vitamins and Supplements">
+                        <img loading="lazy" src="images/product-1.jpg" alt="Vitamins and Supplements">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Vitamins & Supplements</h3>
@@ -91,7 +97,7 @@
                 <!-- Product Card 2 - Skin Whitening -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="images/product-2.jpg" alt="Skin Whitening Products">
+                        <img loading="lazy" src="images/product-2.jpg" alt="Skin Whitening Products">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Skin Whitening & Brightening</h3>
@@ -102,7 +108,7 @@
                 <!-- Product Card 3 - Skincare -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="images/product-3.jpg" alt="Skincare Products">
+                        <img loading="lazy" src="images/product-3.jpg" alt="Skincare Products">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Skincare Essentials</h3>
@@ -113,7 +119,7 @@
                 <!-- Product Card 4 - Hair & Nails -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="images/product-4.jpg" alt="Hair and Nail Care">
+                        <img loading="lazy" src="images/product-4.jpg" alt="Hair and Nail Care">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Hair & Nail Care</h3>
@@ -124,7 +130,7 @@
                 <!-- Product Card 5 - Anti-Aging -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="images/product-5.jpg" alt="Anti-Aging Products">
+                        <img loading="lazy" src="images/product-5.jpg" alt="Anti-Aging Products">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">Anti-Aging Solutions</h3>
@@ -135,7 +141,7 @@
                 <!-- Product Card 6 - Health Supplements -->
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="images/product-6.jpg" alt="Health Supplements">
+                        <img loading="lazy" src="images/product-6.jpg" alt="Health Supplements">
                     </div>
                     <div class="product-info">
                         <h3 class="product-name">General Health & Wellness</h3>
@@ -269,7 +275,7 @@
                 </div>
                 
                 <div class="about-image">
-                    <img src="about_us.jpeg" alt="Beauty with USA - About Us">
+                    <img loading="lazy" src="about_us.jpeg" alt="Beauty with USA - About Us">
                 </div>
             </div>
         </div>
@@ -405,7 +411,7 @@
             <div class="footer-content">
                 <div class="footer-col">
                     <h3>Beauty with USA</h3>
-                    <p>Premium wholesale cosmetics from USA, UK, Canada & Korea to Sri Lanka</p>
+                    <p>Premium wholesale cosmetics from USA, UK, Canada &amp; Korea to Sri Lanka</p>
                 </div>
 
                 <div class="footer-col">
