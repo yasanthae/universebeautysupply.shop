@@ -1,6 +1,6 @@
 /* ===================================
    FILE: script.js
-   Universe Beauty Supply - JavaScript
+   Beauty with USA - JavaScript
    =================================== */
 
 // Wait for DOM to be fully loaded
@@ -203,6 +203,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // ===== CONSOLE MESSAGE =====
-    console.log('Universe Beauty Supply - Website Loaded Successfully');
+    console.log('Beauty with USA - Website Loaded Successfully');
     console.log('For inquiries: 071 369 4788 (Sri Lanka) | +1 302 802 3220 (USA)');
 });
