@@ -313,9 +313,9 @@ a { color: inherit; }
 .brands-section {
     margin-bottom: 56px;
     padding: 28px 32px;
-    border: 1px solid var(--line);
+    border: 1px solid var(--rose);
     border-radius: var(--radius);
-    background-color: var(--surface);
+    background-color: var(--rose-100);
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 16px 32px;
@@ -337,7 +337,7 @@ a { color: inherit; }
 .brand-badge {
     padding: 8px 18px;
     border-radius: 999px;
-    background-color: var(--rose-50);
+    background-color: var(--surface);
     border: 1px solid var(--line);
     color: var(--ink);
     font-weight: 700;
@@ -347,7 +347,7 @@ a { color: inherit; }
 }
 
 .brand-badge:hover {
-    background-color: var(--rose-100);
+    background-color: var(--rose-50);
     border-color: var(--rose);
 }
 
