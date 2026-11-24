@@ -717,6 +717,9 @@ a { color: inherit; }
 .office-box a:hover,
 .contact-item a:hover { text-decoration: underline; }
 
+.whatsapp-link { display: inline-flex; align-items: center; gap: 6px; vertical-align: middle; }
+.whatsapp-link svg { width: 18px; height: 18px; fill: #25D366; flex-shrink: 0; }
+
 .contact-item { background-color: var(--rose-50); border-color: transparent; }
 
 /* Contact form */
